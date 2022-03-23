@@ -1,0 +1,98 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.reloj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26798e;
+    margin: 0;
+    padding: 2em;
+    width: 100vw;
+    height: 100vh;
+  }
+
+ 
+  .hour_marker {
+    fill: transparent;
+    stroke: #9e9e86;
+    stroke-width: 7;
+    stroke-dasharray: 0.2, 4.8;
+    stroke-dashoffset: 0.1;
+  }
+  
+  .minute_marker {
+    fill: transparent;
+    stroke: #0f0e0e;
+    stroke-width: 7;
+    stroke-dasharray: 0.2, 0.8;
+    stroke-dashoffset: 0.1;
+  }
+  
+  .hand {
+    stroke: #ffffff;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+  
+  .hand--thick {
+    stroke-width: 7;
+  }
+  
+  .hand--second {
+    stroke: yellow;
+  }
+  
+  .center {
+    fill: #31b189;
+    stroke-width: 2;
+    stroke: white;
+  }
+  
+  .text {
+    fill: #050505;
+    font-family: "Arial", sans-serif;
+    text-anchor: middle;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* footer */
+
+
+.contenedor-copy{
+    background-color:#3e8fa3;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+p.copy-parrafo {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: black;
+    padding-top: 1em;
+    margin-bottom: 0.1em;
+}
+
+.copy-links{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    letter-spacing: 0.5em;
+}
+
+.copy-links a{
+    color: #050505;
+}
+
+.iconos{
+    font-size: 1.5em;
+    margin: 0 0.5em;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f6f031d123.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Practica Reloj</title>
+</head>
+<body>
+   
+<section class="reloj"> 
+    <svg width="300" height="300" viewBox="-100 -100 200 200">
+        <circle class="minute_marker" r="90" pathLength="60" />
+        <circle class="hour_marker" r="90" pathLength="60" />
+        <text id="text" class="text" x="45" y="5"></text>
+      
+        <g id="hour_hand">
+          <line class="hand" x1="0" y1="0" x2="0" y2="-50" />
+          <line class="hand hand--thick" x1="0" y1="-12" x2="0" y2="-50" />
+        </g>
+      
+        <g id="minute_hand">
+          <line class="hand" x1="0" y1="0" x2="0" y2="-80" />
+          <line class="hand hand--thick" x1="0" y1="-12" x2="0" y2="-80" />
+        </g>
+      
+        <g id="second_hand">
+          <line class="hand hand--second" x1="0" y1="12" x2="0" y2="-80" />
+        </g>
+      
+        <circle class="center" r="3" />
+      </svg>
+    </section>
+
+<footer>
+   <div class="contenedor-copy">
+        <div class="copy">
+        <p class="copy-parrafo"> Practica Reloj-<span>Desarrollado con <span class="heart">💜</span> por Jimena G. Cambronero.</span></p>
+    </div> 
+    <div class="copy-links"> 
+        <a href="https://github.com/JimenaCambronero" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jimena-gisele-cambronero/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+</footer>
+<script src="javascript.js"></script>
+</body>
+</html>
